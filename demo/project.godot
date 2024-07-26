@@ -10,12 +10,9 @@ config_version=5
 
 [application]
 
-config/name="Shopping Center"
-run/main_scene="res://root.tscn"
+config/name="Tree3D Demo"
+config/description="Author: Artyom Bozhko"
+config/version="0.5 beta"
+run/main_scene="res://tree_3d.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
-config/icon="res://icon.svg"
-
-[rendering]
-
-renderer/rendering_method="gl_compatibility"
-renderer/rendering_method.mobile="gl_compatibility"
+config/icon="res://addons/tree3d/ico/Tree3D.png"
